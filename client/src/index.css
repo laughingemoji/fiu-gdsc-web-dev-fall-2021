@@ -30,3 +30,31 @@ code {
 
 
 }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.nav-style{
+  color: white;
+  font-family: Monaco, Consolas, "Courier New",;
+}
+.about-container{
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
